@@ -1,0 +1,2637 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable constant="0" name="balancestars" sid="3630257383417573" static="0" type="number">0</variable>
+        <variable comment="0-14" constant="0" name="CurrentEquipSkin" sid="9489477642331275" static="0" type="number">0</variable>
+        <variable constant="0" name="currentitemcost" sid="9381592335585553" static="0" type="number">0</variable>
+        <variable comment="0 - add 1 - subtract" constant="0" name="addorsubtract" sid="9605519726901424" static="0" type="number">0</variable>
+        <variable comment="Starts from 0, till 14" constant="0" name="CurrentShowSkin" sid="5033153976692188" static="0" type="number">0</variable>
+        <event-group description="" sid="2672795948751959" title="Localstorage Item Missing">
+            <sub-events>
+                <event-block sid="8035723752869467">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="481552014439961" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin0&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="9109750761866971" type="OwnedSkins">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2134083447816503">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="8564541375275147" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="1849322654127328" type="OwnedSkins">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1660248453297879">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="1581163776566928" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="8050871341348754" type="OwnedSkins">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2923132662958581">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="9493776422006939" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin3&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="5387565612660202" type="OwnedSkins">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7267952834110613">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="3029048636623549" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin4&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="5843777814316112" type="OwnedSkins">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1474213364461307">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="7100785951281496" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin5&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="488104747066093" type="OwnedSkins">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6834856056723103">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="5801395376381932" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin6&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="6323519567623047" type="OwnedSkins">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4763365746280966">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="8109959782738169" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin7&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="4259229994877404" type="OwnedSkins">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1611531934888579">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="1650145769041701" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin8&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="5783718564683202" type="OwnedSkins">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2322508230079135">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="1781374742472514" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin9&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="2658345297767177" type="OwnedSkins">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2277050549203783">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="7172958565014661" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin10&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="4575532986139496" type="OwnedSkins">
+                            <param id="0" name="X">10</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6745293996293576">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="5319112248555431" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin11&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="9783551108124069" type="OwnedSkins">
+                            <param id="0" name="X">11</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5252830649943113">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="5941852706667227" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin12&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="8895445430278126" type="OwnedSkins">
+                            <param id="0" name="X">12</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2934959730744329">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="3894145437986946" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin13&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="8599081577038159" type="OwnedSkins">
+                            <param id="0" name="X">13</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4387177959429481">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="7056678528421378" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin14&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="2822425890352866" type="OwnedSkins">
+                            <param id="0" name="X">14</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="2420374980677633" title="Localstorage Item Exists">
+            <sub-events>
+                <event-block sid="2165685652135243">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="7750947506921947" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin0&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="7370501168245519" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin0&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6078358752688597">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="440364209040059" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="1806539898886314" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1152655093668451">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="1661363958311451" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="922402376697535" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5441414306419504">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="5823284203105832" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin3&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="7906389293341737" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="882490077776828">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="2816830025624879" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin4&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="1725096511089672" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin4&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2248963172914296">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="7749704593606977" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin5&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="8878851722511111" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin5&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6316450230302541">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="2074574759963923" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin6&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="4639345849300134" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin6&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9934627494448295">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="8864205630019506" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin7&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="9775157736508844" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin7&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2346221859877559">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="4043462030873035" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin8&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="748299574447263" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin8&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3627892954513619">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="1282451467340576" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin9&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="8267665967391019" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin9&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6773625358263388">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="6289458588691442" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin10&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="5364349901108374" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin10&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9064447492191444">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="7588546132732609" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin11&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="3233504951942957" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin11&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7127204728769431">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="7569122588079955" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin12&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="1504140958943473" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin12&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7321526487071718">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="7559946305793033" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin13&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="9828166994788506" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin13&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7618754133280666">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="7912075526224467" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin14&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Get item" sid="1193010303125833" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin14&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="1438836343607467" title="Localstorage Set Values">
+            <sub-events>
+                <event-block sid="2636268888550799">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="3441901104965857" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin0&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="9193825836153948" type="OwnedSkins">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8683870687041977">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="9738622928991648" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="7734059771531619" type="OwnedSkins">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4322754067544086">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="461637602950114" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="9207352354637937" type="OwnedSkins">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3293724295156885">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="1317155226190016" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin3&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="3016881346296843" type="OwnedSkins">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7452799499211834">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="7453038953824104" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin4&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="4160671608501914" type="OwnedSkins">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5404975836897198">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="4743492086810886" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin5&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="948725426145129" type="OwnedSkins">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1991509092757248">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="1712576512148929" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin6&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="5304475456334355" type="OwnedSkins">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5123816978515376">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="7847307046411079" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin7&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="2925290205140741" type="OwnedSkins">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Value">7</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7473084380026777">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="1492903487028866" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin8&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="3771000799757498" type="OwnedSkins">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Value">8</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5665375779212211">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="715396094604789" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin9&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="2043660434552183" type="OwnedSkins">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Value">9</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3077754649941749">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="6407346811846637" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin10&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="2934048740751198" type="OwnedSkins">
+                            <param id="0" name="X">10</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1935404955415945">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="17316489214329" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin11&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="5351755905378143" type="OwnedSkins">
+                            <param id="0" name="X">11</param>
+                            <param id="1" name="Value">11</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9983103275118601">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="7325725506592202" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin12&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="1315027792940398" type="OwnedSkins">
+                            <param id="0" name="X">12</param>
+                            <param id="1" name="Value">12</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="360291616064128">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="8511209840416932" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin13&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="7791178667104093" type="OwnedSkins">
+                            <param id="0" name="X">13</param>
+                            <param id="1" name="Value">13</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9527395512752738">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="9439937005043371" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin14&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="9718125649501862" type="OwnedSkins">
+                            <param id="0" name="X">14</param>
+                            <param id="1" name="Value">14</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="9239809734381654">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3100869339005328" type="Mouse">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6916913837544528" type="Sprite9">
+                    <param id="0" name="Animation">&quot;Shadow&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="501702108554368">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1120552692128947" type="Mouse">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5924704576316059" type="Sprite9">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3776831066058198">
+            <conditions>
+                <condition id="-29" name="On load complete" sid="7218243858506528" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="514564078237309" type="Cursor_Left">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="789684989676866" type="Cursor_Right">
+                    <param id="0" name="Angle">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2447432507192532">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2007090869711625" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1434480105978394" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7218712600510069">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1874687854535586" type="Mouse">
+                    <param id="0" name="Object">buysprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="1820704158590594" type="buysprite">
+                    <param id="0" name="Animation">&quot;Shadow&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8711176101213375">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="8326371950156571" type="Mouse">
+                    <param id="0" name="Object">buysprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6701983900853136" type="buysprite">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4699747940516801">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8542233317868733" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">storenext</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1390735542490918" type="System">
+                    <param id="0" name="Variable">CurrentShowSkin</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3271755005005813" type="System">
+                    <param id="0" name="Variable">CurrentShowSkin</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6065469233228694" type="buysprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6852307661963131">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2626137978922618" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">storeprev</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="3095947083084817" type="System">
+                    <param id="0" name="Variable">CurrentShowSkin</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="7601659246334133" type="System">
+                    <param id="0" name="Variable">CurrentShowSkin</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3139412869710766" type="buysprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4959836988033099">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2956954227866303" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">buysprite</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="848712951938444" type="System">
+                    <param id="0" name="Variable">balancestars</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">currentitemcost</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Set at X" sid="6811645876152104" type="OwnedSkins">
+                    <param id="0" name="X">CurrentShowSkin</param>
+                    <param id="1" name="Value">CurrentShowSkin</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="6906780443669304" type="System">
+                    <param id="0" name="Variable">balancestars</param>
+                    <param id="1" name="Value">currentitemcost</param>
+                </action>
+                <action id="0" name="Set text" sid="8629474297462222" type="balancestarstext">
+                    <param id="0" name="Text">balancestars</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1708320222682968" type="buysprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set item" sid="6601575491585713" type="LocalStorage">
+                    <param id="0" name="Key">&quot;balancestars&quot;</param>
+                    <param id="1" name="Value">balancestars</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="2438376287957825">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6185774204757192" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="8937305500045851" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin1&quot;</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7883461703232544">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7996941070225439" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="2623113493261339" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin2&quot;</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7813619902827151">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="774192789359582" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="5217713945266001" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin3&quot;</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9027356303314965">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3911760352206279" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="3161985348604267" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin4&quot;</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5204693273132056">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7965935737620395" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="5037635041810344" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin5&quot;</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2581049864351487">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5864037754268484" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="6057069634265387" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin6&quot;</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="226506990631159">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="636470590990582" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="1989249552656052" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin7&quot;</param>
+                            <param id="1" name="Value">7</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4290443558899807">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4449211068535774" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="6160834490164725" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin8&quot;</param>
+                            <param id="1" name="Value">8</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2940926969582642">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6968472252666506" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="6216904903801251" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin9&quot;</param>
+                            <param id="1" name="Value">9</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3418382070715279">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4384521956806665" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="194569069002729" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin10&quot;</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="848270192646354">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1912738248181187" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="578007061645804" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin11&quot;</param>
+                            <param id="1" name="Value">11</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5908686447791232">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2772691810119695" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="4017171564005415" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin12&quot;</param>
+                            <param id="1" name="Value">12</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4868523641933102">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1283959148705605" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="2111317242336739" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin13&quot;</param>
+                            <param id="1" name="Value">13</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5646127484235099">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3332785546157523" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="7581403894110062" type="LocalStorage">
+                            <param id="0" name="Key">&quot;skin14&quot;</param>
+                            <param id="1" name="Value">14</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1896386037617062">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6993070158487624" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Insert" sid="8165047963106233" type="OwnedSkins">
+                    <param id="0" name="Value">0</param>
+                    <param id="1" name="Index">0</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="5" name="Check item exists" sid="383529888374213" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highstars&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="3893583881223826" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highkills&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="7079454791942266" type="LocalStorage">
+                    <param id="0" name="Key">&quot;balancestars&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="866906665725969" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin0&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="2793904713687433" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin1&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="3062442630688809" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin2&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="671849506860195" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin3&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="1960080507479086" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin4&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="695451805694744" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin5&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="3289700181926711" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin6&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="4450076257670101" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin7&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="2523799133249923" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin8&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="3185296417276502" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin9&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="6097900170330722" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin10&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="1605982225612565" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin11&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="5657075563332736" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin12&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="5533706068671878" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin13&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="528333154794226" type="LocalStorage">
+                    <param id="0" name="Key">&quot;skin14&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="539290233830763" type="balancestarstext">
+                    <param id="0" name="Text">balancestars</param>
+                </action>
+                <action id="0" name="Set text" sid="5524648902678821" type="highscorestarpickups">
+                    <param id="0" name="Text">highscorestars</param>
+                </action>
+                <action id="0" name="Set text" sid="8705481219039172" type="highscoreenemytext">
+                    <param id="0" name="Text">highscorekills</param>
+                </action>
+                <action id="33" name="Stop all" sid="8059608599796814" type="Audio" />
+                <action id="0" name="Play" sid="5811436565556169" type="Audio">
+                    <param id="0" name="Audio file">Background</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="7353988898991015" type="balancestarstext">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="501481600995554" type="DistanceDisplay">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="1685010778714769" type="enemieskilled">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="2116296412810191" type="highscoreenemytext">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="8939640433566619" type="highscorestarpickups">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="9276081009672137" type="itemcost">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="6417347520525509" type="lasttext">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="2902577993003954" type="StarsCollected">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="547622562554843" type="tempkillscore">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="8140138743411328" type="tempstarscore">
+                    <param id="0" name="Family name">&quot;skaterdudes&quot;</param>
+                    <param id="1" name="CSS URL">&quot;styles.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="5936870297622404" title="Switch Skins">
+            <sub-events>
+                <event-block sid="6074952892369006">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5351617349328554" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5111654295927835" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4061475690316556" type="itemcost">
+                            <param id="0" name="Text">&quot;0&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="913939726073712" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="157917885498546">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4796156368893775" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="383012076937782" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2213555444966382">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6090837298315003" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="9252508577653281" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;Blue&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="5906317223010288" type="itemcost">
+                            <param id="0" name="Text">&quot;5&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="3865200686400908" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8633872573680044">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="7692265262835519" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="3572836653370532" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1450712877295486">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7848776643996489" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2110070683325487" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;Red&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1336673847387269" type="itemcost">
+                            <param id="0" name="Text">&quot;5&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="3837897639551234" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="439161952520646">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="18118810525834" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="8607183115392447" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1572549122849072">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8320712445349007" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="575342042626533" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;Green&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8380311465825295" type="itemcost">
+                            <param id="0" name="Text">&quot;5&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="62569793294835" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="193492146753297">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="8440980063835081" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="9210479057345426" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="5605290361845014">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4016009462223771" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6278624188283943" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;UnknownAnt&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4779115617415999" type="itemcost">
+                            <param id="0" name="Text">&quot;15&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="8592816382011002" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">15</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8720918056343943">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="8837596915382737" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="7008403284795603" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2779902315870352">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2495772856819974" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6066663422446409" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;MDefault&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3131176163062237" type="itemcost">
+                            <param id="0" name="Text">&quot;10&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6616366287329879" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="1861283450253183">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="3249608820709341" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="1766904215481007" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9486590580548866">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1702317684329809" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6805027609010802" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;MBlue&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="6459216633083375" type="itemcost">
+                            <param id="0" name="Text">&quot;10&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="7807760630501194" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="46627018782295">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="6765226261240066" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="6161447611799702" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6867713622513485">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7083995178713222" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="9458656131695014" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;MRed&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8426478157281962" type="itemcost">
+                            <param id="0" name="Text">&quot;10&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="8394023470864712" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="302532842718924">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="6429235241157798" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="8883843767186117" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4233032961009281">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9876383671672096" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5924957501703694" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;MGreen&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="9137822557495537" type="itemcost">
+                            <param id="0" name="Text">&quot;10&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2815091589838271" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="3823758283315803">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4787792044509746" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="2790451974414474" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8511458013840486">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1855079122834186" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2001980310158592" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;UnknownMouse&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3485611347585302" type="itemcost">
+                            <param id="0" name="Text">&quot;25&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6917703435748083" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">25</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5632962864286446">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="7513999404739842" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="317512325919287" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2659414200529988">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="927192929474956" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2241766950755707" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;PDefault&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2660402708801414" type="itemcost">
+                            <param id="0" name="Text">&quot;20&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1821640709374281" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">20</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7495187367790838">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="9335198708965939" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="7232315671183179" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2417657894399125">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7547618510959093" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8000904424636535" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;PBlue&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2203294793761447" type="itemcost">
+                            <param id="0" name="Text">&quot;20&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="8231169367771372" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">20</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7657247042977534">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="265527866033351" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="6193251181874272" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6536124171222789">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4049581200897792" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="4298413543744007" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;PRed&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="133548915969068" type="itemcost">
+                            <param id="0" name="Text">&quot;20&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="9916029770465267" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">20</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="3308986831667842">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="6442699928235373" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="8039999277767495" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="5780495813961262">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7600927334393798" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="3199848802887523" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;PGreen&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="7919427235080609" type="itemcost">
+                            <param id="0" name="Text">&quot;20&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6739436028854217" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">20</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2639297914153487">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="5621399267117718" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="472603861457871" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4115259708018517">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1011579210375645" type="System">
+                            <param id="0" name="Variable">CurrentShowSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6846881265353854" type="SkinStoreShow">
+                            <param id="0" name="Animation">&quot;UnknownPeng&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4555490329936122" type="itemcost">
+                            <param id="0" name="Text">&quot;30&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="7940073304466483" type="System">
+                            <param id="0" name="Variable">currentitemcost</param>
+                            <param id="1" name="Value">30</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8307112303569437">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="8255480267303952" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentShowSkin</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="4868582386170249" type="buysprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5645785753906288" title="Equip Skins Switcher">
+            <sub-events>
+                <event-block sid="7722854468205954">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="5905096933997687" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">equipprev</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="100140097809683" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="5398732834783832" type="System">
+                            <param id="0" name="Variable">addorsubtract</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4647955007282672">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="604061280467874" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8177294004477207" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7643049574473956">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="6932597678529833" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="5841547709650539" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="9567652125293736" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9055210686305457">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="2858019219772866" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="3752933229984872" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="6185094043871006" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="3397049137238651">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2404111185143268" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6883251861723838" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;Blue&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="4463638300788156">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="5328092227842238" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="9975047794725569" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="1522548466997712" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="537988036995465">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="87056924787312" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="1989799422291374" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="9680156505467784" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="5336142410167577">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="689309209622171" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="583454468901102" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;Red&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7806713184956878">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="8257907167219982" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8606450269479793" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="6322205643396218" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1063245030672167">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4409459879784018" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4902892916429707" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="5401287435223949" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="683171984619005">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5721114933747772" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6234936740945292" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;Green&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="193562804053261">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="350035936637511" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="3226589367394657" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="9748972379518003" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6755653095370713">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4987659064652" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="5864411704448439" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="1366208589383311" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4058514862912921">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8734153890650612" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="9776877258494871" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;Trip&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8737683165439234">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="1800332511356969" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="5446685945475243" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="6297974285749869" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3374182678590051">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="7142431726220783" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="7711325348739767" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="3925128454897643" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4989731018376069">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2957234925726438" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6191807350078865" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;MDefault&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8640050515584121">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="1429327267093593" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6234556213876506" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="1582819207343815" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="719504164195652">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4612508907215735" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="9732045144252083" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="7378370323595821" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7277874239151769">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3222976655621559" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8728073973309545" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;MBlue&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5283831934833396">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4951472173739063" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4796437382199688" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="2287418129866504" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3057526423727954">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="9883173488904836" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="1015056858321864" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="3087236940226008" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="985474565532769">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5967563610301557" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="9929359776278235" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;MRed&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="217383368393201">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="2375032489756607" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8329949007126023" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="3332884445547495" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9117635426102796">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="836498284563032" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6904735597827871" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="6606157790526503" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1771577248078715">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7657792200651919" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="4414812600171136" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;MGreen&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6126569194968376">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4775104387010188" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4679009602438031" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="4398265580146767" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="40608091903256">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="234019891189971" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8922877539296786" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="1175843466648309" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4457635412887309">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9783858094586558" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5927406914550431" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;MTrip&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7648670902110537">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="6144336067314992" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8000495859409545" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="250817103542452" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8081301051754208">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="7947544902466363" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="7145706058496956" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="8931336892920388" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="5332335138019188">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9963777750413398" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1907080038173606" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;PDefault&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9666735967823876">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="2944377736857519" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6752453142761721" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="3966491706621994" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2535031490123384">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="2497719738082276" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="5792168365016887" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="641101807647869" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7722557433813982">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9682453996110287" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="9268295907694484" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;PBlue&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8778465533283652">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="4040559009636952" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="5818963137056566" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="2872784409839991" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8231445770438965">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="7827747556503015" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="7554500733698359" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="9408057744321709" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1400430272147495">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1618937706103915" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2648926020582441" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;PRed&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7205980500979553">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="3614378158330788" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6522476054006959" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="9872203302312417" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9651486908053146">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="5527587540456114" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="9308333733599571" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="3922947390520819" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4464773035743545">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="528763705943686" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2120611857264009" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;PGreen&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="1400807868309183">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="7388831820403933" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="1407376549682549" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="4107129323950283" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1865018888956773">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="1317515205756271" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="9954636885253572" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="2743698403190574" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7803721388863575">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6390588054922819" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="3390522133552927" type="EquipSkin">
+                            <param id="0" name="Animation">&quot;PTrip&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6054938132229647">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="8731235436751378" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="2047887648874786" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="2830710657789027" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8679940543590629">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="8121092034811425" type="OwnedSkins">
+                                    <param id="0" name="Value">CurrentEquipSkin</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4269448684808682" type="System">
+                                    <param id="0" name="Variable">addorsubtract</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="3187217195521497" type="System">
+                                    <param id="0" name="Variable">CurrentEquipSkin</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7409946569534556">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="5318880745715587" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">equipnext</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="4980532032665282" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="619121066582292" type="System">
+                            <param id="0" name="Variable">addorsubtract</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4585365742735873">
+                    <conditions />
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="6744070967419068" type="System">
+                            <param id="0" name="Variable">CurrentEquipSkin</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="9187191290513008" type="System">
+                            <param id="0" name="Variable">addorsubtract</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="7880369713575029">
+            <conditions>
+                <condition id="9" name="On item exists" sid="2500076477725106" type="LocalStorage">
+                    <param id="0" name="Key">&quot;balancestars&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="1752586250583129" type="LocalStorage">
+                    <param id="0" name="Key">&quot;balancestars&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7195707986042087">
+            <conditions>
+                <condition id="10" name="On item missing" sid="5910718806421311" type="LocalStorage">
+                    <param id="0" name="Key">&quot;balancestars&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4700395487908313" type="System">
+                    <param id="0" name="Variable">balancestars</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Set text" sid="4822438298001084" type="balancestarstext">
+                    <param id="0" name="Text">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7101120725322234">
+            <conditions>
+                <condition id="1" name="On item get" sid="4912609393652776" type="LocalStorage">
+                    <param id="0" name="Key">&quot;balancestars&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8408340182479981" type="System">
+                    <param id="0" name="Variable">balancestars</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="0" name="Set text" sid="2784340179564478" type="balancestarstext">
+                    <param id="0" name="Text">balancestars</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7150987104317739">
+            <conditions>
+                <condition id="9" name="On item exists" sid="653831112670758" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highstars&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="7750942362329587" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highstars&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7623464919431858">
+            <conditions>
+                <condition id="10" name="On item missing" sid="6453539345838992" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highstars&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6054225646070615" type="System">
+                    <param id="0" name="Variable">highscorestars</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8398232311148095">
+            <conditions>
+                <condition id="1" name="On item get" sid="5504823050103632" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highstars&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7517218371544307" type="System">
+                    <param id="0" name="Variable">highscorestars</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="0" name="Set text" sid="2281654481865107" type="highscorestarpickups">
+                    <param id="0" name="Text">highscorestars</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6508485777720601">
+            <conditions>
+                <condition id="9" name="On item exists" sid="3142669056706867" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highkills&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="6582439248945454" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highkills&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9042567083250293">
+            <conditions>
+                <condition id="10" name="On item missing" sid="3218104898454546" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highkills&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3487939241752053" type="System">
+                    <param id="0" name="Variable">highscorekills</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="864474534361619">
+            <conditions>
+                <condition id="1" name="On item get" sid="6681285423441757" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highkills&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7334422264907061" type="System">
+                    <param id="0" name="Variable">highscorekills</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="0" name="Set text" sid="5739197680012115" type="highscoreenemytext">
+                    <param id="0" name="Text">highscorekills</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1205492221117528">
+            <conditions />
+            <actions />
+            <sub-events>
+                <variable constant="0" name="i" sid="6607840108349254" static="0" type="number">0</variable>
+                <event-block sid="4348130618369538">
+                    <conditions>
+                        <condition id="-10" name="For" sid="5047380821504337" type="System">
+                            <param id="0" name="Name">&quot;For Each Record&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="8932422291915183" type="System">
+                            <param id="0" name="Variable">i</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5802398085087902">
+            <conditions />
+            <actions>
+                <action id="-2" name="Go to layout" sid="2580545395420148" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

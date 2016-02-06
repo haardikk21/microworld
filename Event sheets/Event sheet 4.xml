@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 4</name>
+    <events>
+        <event-block sid="3513226844260446">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4897103579745686" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7409079343689438" type="tempstarscore">
+                    <param id="0" name="Text">StarsCollected</param>
+                </action>
+                <action id="0" name="Set text" sid="6422077225777627" type="tempkillscore">
+                    <param id="0" name="Text">enemykills</param>
+                </action>
+                <action id="-10" name="Add to" sid="2725832316621572" type="System">
+                    <param id="0" name="Variable">balancestars</param>
+                    <param id="1" name="Value">StarsCollected</param>
+                </action>
+                <action id="0" name="Set item" sid="5767806226322499" type="LocalStorage">
+                    <param id="0" name="Key">&quot;balancestars&quot;</param>
+                    <param id="1" name="Value">balancestars</param>
+                </action>
+                <action id="-9" name="Set value" sid="1258578848723033" type="System">
+                    <param id="0" name="Variable">CanUsePickupGun</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="1896508041831698" type="System">
+                    <param id="0" name="Variable">CurrentDistance</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="2716372863966214" type="System">
+                    <param id="0" name="Variable">CurrentGun</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="1632219484063597" type="System">
+                    <param id="0" name="Variable">GunCooldown</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="6626729844484912" type="System">
+                    <param id="0" name="Variable">LaserCooldown</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="8693193488703726" type="System">
+                    <param id="0" name="Variable">MinigunCooldown</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="7994832195553578" type="System">
+                    <param id="0" name="Variable">NextBlock</param>
+                    <param id="1" name="Value">600</param>
+                </action>
+                <action id="-9" name="Set value" sid="9795106746342155" type="System">
+                    <param id="0" name="Variable">RotDegree</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="9997047338104684" type="System">
+                    <param id="0" name="Variable">TotalDistance</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="3994608065608189" type="System">
+                    <param id="0" name="Variable">shockplayed</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Check item exists" sid="1178956386883615" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highstars&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="2728031941116645" type="LocalStorage">
+                    <param id="0" name="Key">&quot;highkills&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="1288762664803987" type="balancestarstext">
+                    <param id="0" name="Text">balancestars</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="4430700570127808">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3512874922874541" type="System">
+                            <param id="0" name="Variable">enemykills</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">highscorekills</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5784669613825238" type="System">
+                            <param id="0" name="Variable">highscorekills</param>
+                            <param id="1" name="Value">enemykills</param>
+                        </action>
+                        <action id="0" name="Set item" sid="8775832327551341" type="LocalStorage">
+                            <param id="0" name="Key">&quot;highkills&quot;</param>
+                            <param id="1" name="Value">enemykills</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2340186289864379" type="System">
+                            <param id="0" name="Variable">enemykills</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3203641251292667">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2090284899355688" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="7765370934540682" type="System">
+                            <param id="0" name="Variable">enemykills</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="499238273651048">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2017401445053993" type="System">
+                            <param id="0" name="Variable">StarsCollected</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">highscorestars</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9948312961284359" type="System">
+                            <param id="0" name="Variable">highscorestars</param>
+                            <param id="1" name="Value">StarsCollected</param>
+                        </action>
+                        <action id="0" name="Set item" sid="6594385578408073" type="LocalStorage">
+                            <param id="0" name="Key">&quot;highstars&quot;</param>
+                            <param id="1" name="Value">StarsCollected</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2885253558740107" type="System">
+                            <param id="0" name="Variable">StarsCollected</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9567401623670607">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="6052737207628337" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5069700235822455" type="System">
+                            <param id="0" name="Variable">StarsCollected</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3234716108035757">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9043280908228204" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Playagain</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="10373314710773" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6724248266809757">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3242247600913516" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">gobacktomainmenu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7233702439599536" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

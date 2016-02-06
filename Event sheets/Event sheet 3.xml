@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="5938812192802912">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8877366713659704" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Resume</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2983619936591653" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+                <action id="-37" name="Load" sid="392074190485785" type="System">
+                    <param id="0" name="Slot">&quot;pausegame&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1485278330653169">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1725151937568046" type="System" />
+                <condition id="-14" name="Compare variable" sid="6804013576041787" type="System">
+                    <param id="0" name="Variable">daynight</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="2546533870698691" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9092004138866121" type="Sprite5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1586154643732237">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6065222364023476" type="System" />
+                <condition id="-14" name="Compare variable" sid="6947113611893191" type="System">
+                    <param id="0" name="Variable">daynight</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="939397803752571" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3309776195217091" type="Sprite5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8859874038038671">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8366042559026793" type="Mouse">
+                    <param id="0" name="Object">Resume</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2663003552586966" type="Resume">
+                    <param id="0" name="Animation">&quot;Shadow&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9389091158153934">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7424887328156901" type="Mouse">
+                    <param id="0" name="Object">Resume</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2792431347438511" type="Resume">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
