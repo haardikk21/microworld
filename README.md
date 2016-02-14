@@ -7,7 +7,9 @@ Neel Lakhwani - DPS RK Puram
 
 # How To
 Get Construct 2 by Scirra
+
 Open the .caproj file in Construct 2
+
 Export/Debug it to play
 
 # Google Play Store
